@@ -27,7 +27,7 @@
 			<!--begin::Root-->
 			<div class="d-flex flex-column flex-root">
 				@include('partials.aside/aside')
-			
+			</div>
 			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
 				@include('partials.header/header')
 			</div>
@@ -37,7 +37,7 @@
 				@yield('isipage')
 			
 			</div>
-			</div>
+			
 			<!--end::Root-->
 		<!--begin::Javascript-->
 		<!--begin::Global Javascript Bundle(used by all pages)-->
