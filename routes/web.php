@@ -30,7 +30,7 @@ Route::get('/home', function () {
 
 Route::get('/calendar', function () {
     return view('calendar',  [
-        "page" => "Calendar"
+        "page" => "calendar"
     ]);
 });
 

@@ -26,19 +26,24 @@
 		<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed toolbar-tablet-and-mobile-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
 			<!--begin::Root-->
 			<div class="d-flex flex-column flex-root">
-				@include('partials.aside/aside')
-			</div>
-			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-				@include('partials.header/header')
-			</div>
-			
-			<div class="container mt-4">
+				<!--begin::Page-->
+				<div class="page d-flex flex-row flex-column-fluid">
 				
-				@yield('isipage')
+					@include('layouts/aside.base')
 			
+					<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+						@include('layouts/header.header')
+					</div>
+			
+					<div class="container mt-4">
+				
+					 @yield('isipage')
+			
+					</div>
+				</div>
+				<!--end::Page-->
 			</div>
-			
-			<!--end::Root-->
+			 <!--end::Root-->
 		<!--begin::Javascript-->
 		<!--begin::Global Javascript Bundle(used by all pages)-->
 		<script src="assets/plugins/global/plugins.bundle.js"></script>
