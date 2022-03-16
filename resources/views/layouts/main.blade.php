@@ -32,14 +32,14 @@
 					@include('layouts/aside.base')
 			
 					<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
-						@include('layouts/header.header')
+						@include('layouts/header.base')
 					</div>
 			
-					<div class="container mt-4">
+					
 				
 					 @yield('isipage')
 			
-					</div>
+					
 				</div>
 				<!--end::Page-->
 			</div>
