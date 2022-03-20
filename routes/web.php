@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view(
-        'home',
+        'pages.home.home',
         [
             "page" => "Home"
         ]

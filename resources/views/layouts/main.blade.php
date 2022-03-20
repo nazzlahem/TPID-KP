@@ -33,13 +33,24 @@
 			
 					<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
 						@include('layouts/header.base')
+
+						<!--begin::Content-->
+						<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+					
+		 		   	 @include('layouts/toolbars.toolbars')
+									<!--begin::Post-->
+							<div class="post d-flex flex-column-fluid" id="kt_post">
+								<!--begin::Container-->
+								<div id="kt_content_container" class="container">
+									@yield('isipage')
+							 	</div>
+								<!--end::Container-->
+						</div>
+						<!--end::Post-->
+						</div>
+							<!--end::Content-->
 					</div>
-			
-					
-				
-					 @yield('isipage')
-			
-					
+					<!--end::Wrapper-->
 				</div>
 				<!--end::Page-->
 			</div>
