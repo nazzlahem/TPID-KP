@@ -10,7 +10,7 @@
 												<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-rounded-0 py-lg-4 w-lg-225px">
 
 													<div class="menu-item">
-														<a class="menu-link py-3" href="?page=dashboards/ecommerce">
+														<a class="menu-link py-3 {{ ($page === "Home") ? 'active' : '' }}" href="/home">
 															<span class="menu-bullet">
 																<span class="bullet bullet-dot"></span>
 															</span>
