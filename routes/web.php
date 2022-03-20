@@ -44,6 +44,12 @@ Route::get('/absen', function () {
     ]);
 });
 
+Route::get('/report', function () {
+    return view('pages.report.globalr',  [
+        "page" => "absen"
+    ]);
+});
+
 Route::get('/permission', function () {
     return view('permission',  [
         "page" => "absen"

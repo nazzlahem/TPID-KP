@@ -3,7 +3,7 @@
 					<!--begin::Brand-->
 					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
 						<!--begin::Logo-->
-						<a href="?page=index">
+						<a href="/home">
 							<img alt="Logo" src="assets/media/logos/logo3.png" class="h-50px logo" />
 						</a>
 						<!--end::Logo-->
