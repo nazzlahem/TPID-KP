@@ -184,7 +184,7 @@
 					</span>
 					<!--end::Svg Icon-->
 				</span>
-				<span class="menu-title">Global</span>
+				<span class="menu-title">Report</span>
 			</a>
 			<a class="menu-link {{ ($page === "logact") ? 'active' : '' }} ?>" href="/logact">
 				<span class="menu-icon">

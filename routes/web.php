@@ -45,7 +45,7 @@ Route::get('/absen', function () {
 });
 
 Route::get('/report', function () {
-    return view('pages.report.globalr',  [
+    return view('pages.report.report',  [
         "page" => "absen"
     ]);
 });

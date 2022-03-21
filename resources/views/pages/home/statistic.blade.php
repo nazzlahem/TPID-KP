@@ -18,8 +18,8 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<div class="text-inverse-body fw-bolder fs-2 mb-2 mt-5">500M$</div>
-												<div class="fw-bold text-inverse-body fs-7">SAP UI Progress</div>
+												<div class="text-inverse-body fw-bolder fs-2 mb-2 mt-5">25</div>
+												<div class="fw-bold text-inverse-body fs-7">Total Employee Today</div>
 											</div>
 											<!--end::Body-->
 										</a>
@@ -42,8 +42,8 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<div class="text-inverse-dark fw-bolder fs-2 mb-2 mt-5">+3000</div>
-												<div class="fw-bold text-inverse-dark fs-7">New Customers</div>
+												<div class="text-inverse-dark fw-bolder fs-2 mb-2 mt-5">10</div>
+												<div class="fw-bold text-inverse-dark fs-7">WFO</div>
 											</div>
 											<!--end::Body-->
 										</a>
@@ -62,8 +62,8 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<div class="text-inverse-warning fw-bolder fs-2 mb-2 mt-5">$50,000</div>
-												<div class="fw-bold text-inverse-warning fs-7">Milestone Reached</div>
+												<div class="text-inverse-warning fw-bolder fs-2 mb-2 mt-5">14</div>
+												<div class="fw-bold text-inverse-warning fs-7">WFH</div>
 											</div>
 											<!--end::Body-->
 										</a>
@@ -85,8 +85,8 @@
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<div class="text-inverse-info fw-bolder fs-2 mb-2 mt-5">$50,000</div>
-												<div class="fw-bold text-inverse-info fs-7">Milestone Reached</div>
+												<div class="text-inverse-info fw-bolder fs-2 mb-2 mt-5">1</div>
+												<div class="fw-bold text-inverse-info fs-7">Cuti</div>
 											</div>
 											<!--end::Body-->
 										</a>
