@@ -35,9 +35,7 @@
 						@include('layouts/header.base')
 
 						<!--begin::Content-->
-						<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 					
-		 		   	 @include('layouts/toolbars.toolbars')
 									<!--begin::Post-->
 							<div class="post d-flex flex-column-fluid" id="kt_post">
 								<!--begin::Container-->
@@ -47,7 +45,7 @@
 								<!--end::Container-->
 						</div>
 						<!--end::Post-->
-						</div>
+						
 							<!--end::Content-->
 					</div>
 					<!--end::Wrapper-->

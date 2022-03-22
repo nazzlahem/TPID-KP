@@ -2,8 +2,8 @@
 
 @section('isipage') 
   
-	@include('pages.report.report')
-	
+	@include('pages.report.chart')
+
 	@include('pages.report.table')
 
 @endsection
