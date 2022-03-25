@@ -10,6 +10,18 @@
             <!--begin::Card header-->
             <div class="card-header">
                 <h2 class="card-title fw-bolder">Input Jadwal Karyawan</h2>
+                <div class="card-toolbar">
+										<a href="#" type="button" class="btn btn-flex btn-primary" data-kt-calendar="add">
+											<!--begin::Svg Icon | path: icons/duotone/Navigation/Plus.svg-->
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+													<rect fill="#000000" x="4" y="11" width="16" height="2" rx="1" />
+													<rect fill="#000000" opacity="0.5" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000)" x="4" y="11" width="16" height="2" rx="1" />
+												</svg>
+											</span>
+											<!--end::Svg Icon-->Add Cuti
+										</a>
+									</div>
             </div>
             <!--end::Card header-->
             <!--begin::Card body-->
@@ -33,7 +45,7 @@
                         <!--begin::Modal header-->
                         <div class="modal-header">
                             <!--begin::Modal title-->
-                            <h2 class="fw-bolder" data-kt-calendar="title">Add Event</h2>
+                            <h2 class="fw-bolder" data-kt-calendar="title">Add Cuti</h2>
                             <!--end::Modal title-->
                             <!--begin::Close-->
                             <div class="btn btn-icon btn-sm btn-active-icon-primary" id="kt_modal_add_event_close">
@@ -70,16 +82,6 @@
                                 <!--end::Label-->
                                 <!--begin::Input-->
                                 <input type="text" class="form-control form-control-solid" placeholder="" name="calendar_event_description" />
-                                <!--end::Input-->
-                            </div>
-                            <!--end::Input group-->
-                            <!--begin::Input group-->
-                            <div class="fv-row mb-9">
-                                <!--begin::Label-->
-                                <label class="fs-6 fw-bold mb-2">Event Location</label>
-                                <!--end::Label-->
-                                <!--begin::Input-->
-                                <input type="text" class="form-control form-control-solid" placeholder="" name="calendar_event_location" />
                                 <!--end::Input-->
                             </div>
                             <!--end::Input group-->
@@ -305,7 +307,7 @@
         </div>
         <!--end::Modal - New Product-->
         <!--end::Modals-->
-        <div class="mt-9">
+        <div class="mt-6">
         <button type="button" class="btn btn-primary btn-sm">Atur Jadwal</button>
 		<button type="button" class="btn btn-primary btn-sm">Save</button>
         </div>

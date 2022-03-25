@@ -14,15 +14,15 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/', function () {
-    return view(
-        'pages.login.login',
-        'pages.home.home',
-        [
-            "page" => "login"
-        ]
-    );
-});
+// Route::get('/', function () {
+//     return view(
+//         'pages.login.login',
+//         'pages.home.home',
+//         [
+//             "page" => "login"
+//         ]
+//     );
+// });
 
 Route::get('/home', function () {
     return view(
@@ -34,23 +34,35 @@ Route::get('/home', function () {
     );
 });
 
-Route::get('list', function () {
+Route::get('/calendar', function () {
     return view('pages.calendar.calendar',  [
         "page" => "calendar",
         "title" => "Your Schedule"
     ]);
 });
 
+Route::get('/calendar-add', function () {
+    return view('pages.calendar.calendaradd',  [
+        "page" => "addcalendar",
+        "title" => "Input Schedule"
+    ]);
+});
 
+Route::get('/calendar-cuti', function () {
+    return view('pages.calendar.addcuti',  [
+        "page" => "addcuti",
+        "title" => "Input Schedule"
+    ]);
+});
 Route::get('/absen', function () {
-    return view('pages.absen.absen',  [
+    return view('pages.attendance.absen',  [
         "page" => "absen",
         "title" => "Attandance"
     ]);
 });
 
 Route::get('/listabsen', function () {
-    return view('pages.absen.listabsen',  [
+    return view('pages.attendance.listabsen',  [
         "page" => "listabsen",
         "title" => "Employee Schedule"
     ]);
@@ -77,28 +89,21 @@ Route::get('/userlist', function () {
 });
 
 Route::get('/assetusagedata', function () {
-    return view('pages.asset.assetusagedata',  [
+    return view('pages.assets.assetusagedata',  [
         "page" => "assetusagedata",
         "title" => "Asset Usage"
     ]);
 });
 
 Route::get('/bill', function () {
-    return view('pages.asset.bill',  [
+    return view('pages.assets.bill',  [
         "page" => "bill",
         "title" => "Bill"
     ]);
 });
 
-Route::get('/calendaradd', function () {
-    return view('pages.calendar.calendaradd',  [
-        "page" => "calendaradd",
-        "title" => "Input Schedule"
-    ]);
-});
-
 Route::get('/listasset', function () {
-    return view('pages.asset.listasset',  [
+    return view('pages.assets.listasset',  [
         "page" => "listasset",
         "title" => "Asset List"
     ]);
@@ -112,20 +117,20 @@ Route::get('/role', function () {
 });
 
 Route::get('/useasset', function () {
-    return view('pages.asset.useasset',  [
+    return view('pages.assets.useasset',  [
         "page" => "useasset",
         "title" => "Use Asset"
     ]);
 });
 
 Route::get('/assetsdetails', function () {
-    return view('pages.asset.assetsdetails',  [
+    return view('pages.assets.assetsdetails',  [
         "page" => "assetsdetails",
         "title" => "Asset Details"
     ]);
 });
 
-Route::get('/log', function () {
+Route::get('/logact', function () {
     return view('log',  [
         "page" => "log",
         "title" => "Log"
@@ -139,9 +144,9 @@ Route::get('/report', function () {
     ]);
 });
 
-Route::get('/login', [LoginController::class, 'login'])->name('login');
-Route::post('/loginproses', [LoginController::class, 'loginproses'])->name('loginproses');
-Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+// Route::get('/login', [LoginController::class, 'login'])->name('login');
+// Route::post('/loginproses', [LoginController::class, 'loginproses'])->name('loginproses');
+// Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
-Route::get('/register', [LoginController::class, 'register'])->name('register');
-Route::post('/registeruser', [LoginController::class, 'registeruser'])->name('registeruser');
+// Route::get('/register', [LoginController::class, 'register'])->name('register');
+// Route::post('/registeruser', [LoginController::class, 'registeruser'])->name('registeruser');

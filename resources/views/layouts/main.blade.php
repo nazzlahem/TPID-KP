@@ -45,9 +45,10 @@
 								<!--end::Container-->
 						</div>
 						<!--end::Post-->
-						
-							<!--end::Content-->
+						<!--end::Content-->
+						@include('layouts/footer.footer')	
 					</div>
+					
 					<!--end::Wrapper-->
 				</div>
 				<!--end::Page-->

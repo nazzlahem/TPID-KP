@@ -64,11 +64,19 @@
 					</a>
 				</div>
 				<div class="menu-item">
-					<a class="menu-link {{ ($page === "addcalendar") ? 'active' : '' }}" href="">
+					<a class="menu-link {{ ($page === "addcalendar") ? 'active' : '' }}" href="/calendar-add">
 						<span class="menu-bullet">
 							<span class="bullet bullet-dot"></span>
 						</span>
 						<span class="menu-title">Add</span>
+					</a>
+				</div>
+				<div class="menu-item">
+					<a class="menu-link {{ ($page === "addcuti") ? 'active' : '' }}" href="/calendar-cuti">
+						<span class="menu-bullet">
+							<span class="bullet bullet-dot"></span>
+						</span>
+						<span class="menu-title">Add Cuti</span>
 					</a>
 				</div>
 			</div>

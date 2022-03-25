@@ -1,12 +1,8 @@
 @extends('layouts.main')
 @section('isipage')
-					<!--begin::Content-->
-					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-						<!--begin::Post-->
-						<div class="post d-flex flex-column-fluid" id="kt_post">
-							<!--begin::Container-->
-							<div id="kt_content_container" class="container">
-								<!--begin::Card-->
+
+				
+							<!--begin::Card-->
 								<div class="card">
 									<!--begin::Card header-->
 									<div class="card-header">
@@ -306,15 +302,6 @@
 								</div>
 								<!--end::Modal - New Product-->
 								<!--end::Modals-->
-							</div>
-							<!--end::Container-->
-						</div>
-						<!--end::Post-->
-					</div>
-					<!--end::Content-->
-				</div>
-				<!--end::Wrapper-->
-		<!--end::Modals-->
 		@endsection		
 		<!--end::Main-->
 		<!--begin::Javascript-->
